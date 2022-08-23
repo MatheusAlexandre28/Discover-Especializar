@@ -1,0 +1,1 @@
+// Funções aceitam qualuqer tipo de dado como argumento
