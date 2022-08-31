@@ -14,3 +14,5 @@ const promessa = new Promise((resolve, reject)) => {
 }
 
 console.log('aguardando')
+  .then(result => console.log(result))
+  .catch
