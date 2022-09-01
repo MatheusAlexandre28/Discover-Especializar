@@ -12,7 +12,3 @@ console.log('pedir uber')
 const promessa = new Promise((resolve, reject)) => {
   return reject('carro chegou')
 }
-
-console.log('aguardando')
-  .then(result => console.log(result))
-  .catch
