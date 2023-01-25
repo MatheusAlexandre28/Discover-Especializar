@@ -1,0 +1,1 @@
+Coloque a dependencia do Axios no seu projeto após entre no site e coloque o codigo do site deles https://axios-http.com/ptbr/ com isso voce podera usar a biblioteca do axios
