@@ -4,3 +4,9 @@
 // .then( res => res.json())
 // .then( d => console.log(d))
 // .catch( err => console.log(err))
+
+async function start(){
+
+}
+
+start()
