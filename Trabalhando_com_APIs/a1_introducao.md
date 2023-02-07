@@ -1,0 +1,1 @@
+Vamos aprender oqq é uma API vamos descrobrir oq significa essa sigla q é muito usada e vamos aprender as ferramentas para usar a API, para aprender essas ferramentas vamos criar uma API e vamos consumir ela
