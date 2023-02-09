@@ -1,0 +1,22 @@
+{
+  "nome": "Matheus Alexandre",
+  "cidade": "são paulo", 
+  "Telefone": 931231241,
+  "livros_favoritos": [
+    "poder do subconciente",
+    "pai rico pai pobre",
+    "poder do habito"
+  ],
+  "hobbies": {
+    "semana": "patinaçao",
+    "fim_de_semana": {
+      "sabado": "cinema",
+      "domingo": "park",
+      "outros": [
+        "caminhada",
+        "voley",
+        "netflix"
+      ]
+    }
+  }
+}
