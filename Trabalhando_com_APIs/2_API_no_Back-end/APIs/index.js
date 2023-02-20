@@ -4,4 +4,4 @@ const app = express()
 
 app.listen('3000')
 
-app.route('/').get( (req, res)=> {})
+app.route('/').get( (req, res)=> res.send())
