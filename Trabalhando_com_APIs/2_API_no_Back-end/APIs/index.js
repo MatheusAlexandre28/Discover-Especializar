@@ -4,4 +4,4 @@ const app = express()
 
 app.listen('3000')
 
-app.route('/').post( (req, res) => {} )
+app.route('/').post( (req, res) => req.body )
