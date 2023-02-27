@@ -5,3 +5,5 @@ const app = express()
 app.listen('3000')
 
 app.route('/').put( (req, res) => {} )
+
+put = editar
