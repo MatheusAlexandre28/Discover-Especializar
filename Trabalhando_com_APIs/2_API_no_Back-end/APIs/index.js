@@ -4,18 +4,7 @@ const app = express()
 
 app.listen('3000')
 
-//middleware
-app.use(express.json())
+app.route('/:identificador').delete((req, res) => {
+  res.send(req.params.identificador)
+})
 
-let author = "Matheus"
-
-app.route('/').get( (req, res) => res.send(author))
-
-app.route('/').put( (req, res) => {
-  author = req.body.author
-  res.send(author)
-} )
-
-{
-  "author":"Matheus Alexandre"
-}
