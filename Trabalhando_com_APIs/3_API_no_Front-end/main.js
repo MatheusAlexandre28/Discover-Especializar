@@ -37,7 +37,13 @@ const newUser = {
   city: "Rio do sul"
 }
 
-addUser(newUser)
+function updateUser(id){
+  axios.put(`${url}/${id}`, {})
+  .then(response => console.log(response))
+  .catch(error => console.error(error))
+}
+
+updateUser(1)
 
 getUsers()
 getUser()
