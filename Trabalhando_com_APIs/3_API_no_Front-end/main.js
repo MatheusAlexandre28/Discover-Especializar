@@ -1,3 +1,5 @@
+const { response } = require("express")
+
 const url="http://localhost:5500/api"
 
 function getUsers() {
@@ -33,17 +35,29 @@ function addUser(newUser){
 
 const newUser = {
   name: "Olivia Zars",
-  avatar: "http://lorempixel.com/400/200",
+  avatar: "https://picsum.photos/200/300",
   city: "Rio do sul"
 }
 
-function updateUser(id){
-  axios.put(`${url}/${id}`, {})
+const userUpdated = {
+    name:"Marcelo Calvis",
+    avatar:"https://picsum.photos/200/300",
+    city:"Recife"
+}
+
+function deleteUser(id){
+  axios.delete(`${url}/${id}`)
   .then(response => console.log(response))
   .catch(error => console.error(error))
 }
 
-updateUser(1)
+deleteUser(2)
 
 getUsers()
-getUser()
+getUser(1)
+
+// function updateUser(id, userUpdated){
+//   axios.put(`${url}/${id}`, userUpdated)
+//   .then(response => console.log(response))
+//   .catch(error => console.error(error))
+// }
