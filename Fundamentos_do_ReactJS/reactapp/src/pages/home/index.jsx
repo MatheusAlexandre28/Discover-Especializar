@@ -9,9 +9,8 @@ export function Home() {
       <input type="text" placeholder='Digite um nome...'/>
       <button type='button'>Adicionar</button>
 
-      <Card />
-      <Card />
-      <Card />
+      <Card name="Matheus" time="10:55:25"/>
+      <Card name="João" time="11:00:10"/>
     </div>
   )
 }
