@@ -4,7 +4,7 @@ import './styles.css'
 import { Card } from '../../components/Card';
 
 export function Home() {
-  const [studentName, setStudentName] = useState();
+  const [studentName, setStudentName] = useState('');
 
   return (
     <div className='container'>
