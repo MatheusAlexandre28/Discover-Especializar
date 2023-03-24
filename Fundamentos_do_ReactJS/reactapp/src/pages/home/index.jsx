@@ -5,10 +5,11 @@ import { Card } from '../../components/Card';
 
 export function Home() {
   const [studentName, setStudentName] = useState('');
+  const [students, setStudents] = useState([]);
 
   return (
     <div className='container'>
-      <h1>Nome: {studentName}</h1>
+      <h1>Lista de Presença:</h1>
 
       <input 
         type="text" 
@@ -18,8 +19,9 @@ export function Home() {
 
       <button type='button'>Adicionar</button>
 
-      <Card name="Matheus" time="10:55:25"/>
-      <Card name="João" time="11:00:10"/>
+      {
+        students.map(student => <Card name="Matheus" time="10:55:25"/>)
+      }
     </div>
   )
 }
