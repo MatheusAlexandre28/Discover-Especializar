@@ -36,6 +36,7 @@ export function Home() {
       {
         students.map(student => (
           <Card
+            key={student.time} 
             name={student.name} 
             time={student.time}
           />
