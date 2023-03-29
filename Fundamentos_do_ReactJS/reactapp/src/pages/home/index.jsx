@@ -35,7 +35,10 @@ export function Home() {
 
       {
         students.map(student => (
-          <Card name={student.name} time={student.time}/>
+          <Card
+            name={student.name} 
+            time={student.time}
+          />
         ))
       }
     </div>
