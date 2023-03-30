@@ -21,7 +21,9 @@ export function Home() {
 
   return (
     <div className='container'>
-      <h1>Lista de Presença:</h1>
+      <header>
+        <h1>Lista de Presença:</h1>
+      </header>
 
       <input 
         type="text" 
