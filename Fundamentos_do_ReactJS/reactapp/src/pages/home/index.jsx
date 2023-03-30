@@ -23,6 +23,10 @@ export function Home() {
     <div className='container'>
       <header>
         <h1>Lista de Presença:</h1>
+        <div>
+          <strong>Matheus</strong>
+          <img src="https://github.com/MatheusAlexandre28.png" alt="foto de perfil" />
+        </div>
       </header>
 
       <input 
