@@ -19,6 +19,10 @@ export function Home() {
     setStudents(prevState => [...prevState, newStudent]);
   }
 
+  useEffect(() => {
+    // corpo do useEffect
+  }, [])
+
   return (
     <div className='container'>
       <header>
