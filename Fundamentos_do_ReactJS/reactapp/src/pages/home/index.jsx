@@ -21,7 +21,7 @@ export function Home() {
 
   useEffect(() => {
     console.log("useEffect foi chamado")
-  }, []);
+  }, [students]);
 
   return (
     <div className='container'>
