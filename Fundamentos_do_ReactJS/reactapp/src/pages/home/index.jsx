@@ -21,14 +21,17 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch('https://api.github.com/users/MatheusAlexandre28 ')
-    .then(response => response.json())
-    .then(data => {
+    async function fetchData(){
+      const response = await fetch('https://api.github.com/users/MatheusAlexandre28 ')
+      const data = await response.json();
       setUser({
         name: data.name,
         avatar: data.avatar_url,
       })
-    })
+
+    }
+    
+    fetchData();
   }, []);
 
   return (
