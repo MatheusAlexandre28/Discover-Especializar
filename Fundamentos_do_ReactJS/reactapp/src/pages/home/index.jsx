@@ -66,3 +66,5 @@ export function Home() {
     </div>
   )
 }
+
+// O que é typeScript
